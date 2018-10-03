@@ -27,14 +27,18 @@
   "bundleDependencies": false,
   "dependencies": {
     "@types/node": "^9.6.18",
-    "googleapis": "^27.0.0",
-    "react-native": "^0.57.1"
+    "googleapis": "^27.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^22.2.3",
+    "react": "16.3.1",
+    "react-native": "^0.57.1",
+    "@types/jest": "^23.3.3",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
@@ -42,13 +46,14 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "jest": "^22.4.4",
-    "linted": "0.0.2",
+    "jest": "^23.6.0",
+    "jest-react-native": "^18.0.0",
+    "linted": "^1.0.4",
     "prettier": "^1.14.3",
     "prettier-eslint": "^8.8.2",
-    "ts-jest": "^22.4.6",
-    "tslint": "^5.10.0",
-    "typescript": "^2.8.3"
+    "ts-jest": "^23.10.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
   },
   "keywords": [
     "react",
